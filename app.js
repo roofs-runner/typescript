@@ -5,9 +5,7 @@
 // function sayHello() {
 //     console.log('Hello');
 // }
-
 //console.log(multiply(22, 2));
-
 // let myMultiply: (val1: number, val2: number) => number;
 //
 // myMultiply = sayHello;
@@ -17,7 +15,6 @@
 // myMultiply = multiply;
 //
 // console.log(myMultiply(5,4));
-
 //objects
 // let userData: {name:string, age:number} = {
 //   name: 'Max',
@@ -47,17 +44,15 @@
 // //nullable types
 // let canBeNull = 12;
 // canBeNull = null;
-
 // rest operator
-const numbers = [1, 40, 5, 33];
-console.log(Math.max(...numbers));
-
+var numbers = [1, 40, 5, 33];
+console.log(Math.max.apply(Math, numbers));
 //rest operator
-function makeArray (...args: number) {
+function makeArray() {
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        args[_i] = arguments[_i];
+    }
     return args;
 }
-
 console.log(makeArray(5, 13));
-
-
-
