@@ -45,14 +45,17 @@
 // let canBeNull = 12;
 // canBeNull = null;
 // rest operator
-var numbers = [1, 40, 5, 33];
-console.log(Math.max.apply(Math, numbers));
-//rest operator
-function makeArray() {
-    var args = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        args[_i] = arguments[_i];
-    }
-    return args;
-}
-console.log(makeArray(5, 13));
+// const numbers = [1, 40, 5, 33];
+// console.log(Math.max(...numbers));
+//
+// //rest operator
+// function makeArray (...args: number) {
+//     return args;
+// }
+//
+// console.log(makeArray(5, 13));
+//
+// //Template literals
+// const userName = "Max";
+// const greeting = `This is a greeting. I am ${userName}`;
+// console.log(greeting);

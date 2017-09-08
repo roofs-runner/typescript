@@ -49,15 +49,17 @@
 // canBeNull = null;
 
 // rest operator
-const numbers = [1, 40, 5, 33];
-console.log(Math.max(...numbers));
-
-//rest operator
-function makeArray (...args: number) {
-    return args;
-}
-
-console.log(makeArray(5, 13));
-
-
-
+// const numbers = [1, 40, 5, 33];
+// console.log(Math.max(...numbers));
+//
+// //rest operator
+// function makeArray (...args: number) {
+//     return args;
+// }
+//
+// console.log(makeArray(5, 13));
+//
+// //Template literals
+// const userName = "Max";
+// const greeting = `This is a greeting. I am ${userName}`;
+// console.log(greeting);
