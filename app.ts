@@ -63,3 +63,8 @@
 // const userName = "Max";
 // const greeting = `This is a greeting. I am ${userName}`;
 // console.log(greeting);
+
+import * as Circle from './math/circle';
+
+console.log(Circle.PI);
+console.log(Circle.calculateCircumference(6));

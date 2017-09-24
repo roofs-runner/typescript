@@ -1,3 +1,4 @@
+"use strict";
 // function multiply(value1: number, value2: number): number {
 //     return value1 * value2;
 // }
@@ -5,6 +6,7 @@
 // function sayHello() {
 //     console.log('Hello');
 // }
+Object.defineProperty(exports, "__esModule", { value: true });
 //console.log(multiply(22, 2));
 // let myMultiply: (val1: number, val2: number) => number;
 //
@@ -59,3 +61,6 @@
 // const userName = "Max";
 // const greeting = `This is a greeting. I am ${userName}`;
 // console.log(greeting);
+var circle_1 = require("./math/circle");
+console.log(circle_1.PI);
+console.log(circle_1.calculateCircumference(6));
